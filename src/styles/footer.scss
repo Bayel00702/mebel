@@ -1,0 +1,75 @@
+.footer{
+  background: #FFFFFF;
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.03);
+  padding: 49px 0 34px;
+
+  &__row{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__left{
+
+    &-title{
+      font-weight: 500;
+      font-size: 14px;
+      color: #000000;
+    }
+    &-lists{
+      display: flex;
+      column-gap: 50px;
+      margin: 10px 0 34px;
+
+      &__list{
+        display: flex;
+        flex-direction: column;
+        row-gap: 7px;
+      }
+      &__item{
+        font-weight: 400;
+        font-size: 14px;
+        color: #414141;
+      }
+    }
+
+    &-texts{
+      display: flex;
+      align-items: center;
+      column-gap: 30px;
+
+      &__sale{
+        font-weight: 400;
+        font-size: 14px;
+        color: #D74444;
+      }
+      &__new{
+        font-weight: 400;
+        font-size: 14px;
+        color: #414141;
+      }
+    }
+  }
+  &__right{
+    text-align: right;
+
+    &-address{
+      font-weight: 400;
+      font-size: 14px;
+      color: #414141;
+      margin: 20px 0 34px;
+    }
+
+    &-contact{
+      display: flex;
+      align-items: center;
+      column-gap: 30px;
+
+      &__text{
+        display: flex;
+        column-gap: 10px;
+        font-weight: 400;
+        font-size: 14px;
+        color: #414141;
+      }
+    }
+  }
+}

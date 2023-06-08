@@ -1,0 +1,126 @@
+.header{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: .5s;
+  &.active{
+    top: -35px;
+    transition: .5s;
+  }
+
+  &__top{
+    background: #313131;
+    padding: 10px 0 12px;
+    position: relative;
+
+    &-close{
+      position: absolute;
+      right: 100px;
+      top: 13px;
+    }
+
+    &-row{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    &-pages{
+      display: flex;
+      align-items: center;
+      column-gap: 30px;
+
+      &__link{
+        font-weight: 400;
+        font-size: 14px;
+        color: #FFFFFF;
+        transition: .5s;
+
+
+        &:hover{
+          color: gray;
+          transition: .5s;
+        }
+      }
+    }
+    &-right{
+      display: flex;
+      align-items: center;
+      column-gap: 30px;
+
+      &__text{
+        display: flex;
+        align-items: center;
+        column-gap: 11px;
+        font-weight: 400;
+        font-size: 14px;
+        color: #FFFFFF;
+      }
+    }
+  }
+  &__center{
+    padding: 40px 0 20px;
+
+    &-icon{
+      color: black;
+      font-size: 25px;
+    }
+
+    &-row{
+      display: flex;
+      align-items: center;
+      column-gap: 37px;
+    }
+    &-label{
+      border: 1px solid #E6E6E6;
+      display: flex;
+      align-items: center;
+      column-gap: 20px;
+      padding: 18px 15px;
+      width: 100%;
+    }
+    &-input{
+      border: none;
+      font-weight: 400;
+      font-size: 14px;
+      color: #414141;
+      width: 100%;
+    }
+    &-icons{
+      display: flex;
+      align-items: center;
+      column-gap: 30px;
+    }
+  }
+  &__end{
+    padding-bottom: 30px;
+    &-nav{
+      background: #FFFFFF;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.07);
+      padding: 23px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    &-category{
+      display: flex;
+      align-items: center;
+      column-gap: 50px;
+    }
+    &-text{
+      display: flex;
+      align-items: center;
+      column-gap: 10px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      color: #414141;
+    }
+    &-sale{
+      font-weight: 400;
+      font-size: 16px;
+      color: #D74444;
+    }
+  }
+}

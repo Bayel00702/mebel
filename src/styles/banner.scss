@@ -1,0 +1,50 @@
+.banner{
+  &__info{
+    background: url("/src/assets/swiper.png") center/cover no-repeat;
+
+    padding: 100px 0 141px 121px;
+
+    &-title{
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 105.3%;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      color: #3C3C3C;
+    }
+    &-text{
+      font-weight: 400;
+      font-size: 16px;
+      letter-spacing: 0.02em;
+      color: #343434;
+      margin: 15px 0 20px;
+    }
+    &-btn{
+      font-weight: 700;
+      font-size: 12px;
+      letter-spacing: 0.04em;
+      color: #414141;
+      padding: 14px 25px;
+      background: #FFFFFF;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.07);;
+    }
+  }
+
+  .swiper-button-next, .swiper-button-prev{
+    width: 30px;
+    height: 30px;
+    background: #FFFFFF;
+
+    &::after{
+      font-size: 8px;
+      color: gray;
+    }
+  }
+  .swiper-button-next{
+    right: 35px;
+  }
+
+  .swiper-button-prev{
+    left: 35px;
+  }
+}

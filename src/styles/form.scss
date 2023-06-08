@@ -1,0 +1,98 @@
+.forms{
+  padding: 21px 30px;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+
+  &__row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 127px;
+  }
+
+  &__right{
+    padding: 130px 88px;
+    background: #000842;
+    border-radius: 15px;
+    border: none;
+
+    &-title{
+      font-weight: 600;
+      font-size: 40px;
+      color: #FFFFFF;
+      margin: 90px 0 4px;
+    }
+    &-text{
+      font-weight: 300;
+      font-size: 20px;
+      color: #FFFFFF;
+    }
+  }
+
+  &__title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 102px;
+  }
+  &__left{
+    margin-left: 86px;
+  }
+  &__form{
+    &-title{
+      font-weight: 500;
+      font-size: 30px;
+      color: #000000;
+    }
+    &-text{
+      font-weight: 400;
+      font-size: 16px;
+      color: #000000;
+      margin: 22px 0 0;
+    }
+    &-link{
+      font-weight: 400;
+      font-size: 16px;
+      color: #0C21C1;
+    }
+    &-btn{
+      background: #0C21C1;
+      box-shadow: 0 4px 26px rgba(0, 0, 0, 0.25);
+      border-radius: 32px;
+      padding: 14px 180px;
+      font-weight: 500;
+      font-size: 17px;
+      color: #FFFFFF;
+      margin-top: 58px;
+    }
+    &-category{
+      font-weight: 500;
+      font-size: 13px;
+      color: #999999;
+      margin-top: 42px;
+    }
+    &-field{
+      display: flex;
+      align-items: center;
+      column-gap: 10px;
+      border-bottom:1px solid #999999;
+      padding: 7px 0;
+      width: 429px  ;
+    }
+    &-input{
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #000842;
+      border: none;
+      outline: none;
+      width: 100%;
+    }
+    &-error{
+      color: firebrick;
+      font-weight: 500;
+      font-size: 10px;
+      margin-top: 5px;
+    }
+  }
+}

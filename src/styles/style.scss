@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  resize: none;
+  text-decoration: none;
+  list-style-type: none;
+  transition: .3s;
+}
+
+button{
+  cursor: pointer;
+  border: none;
+}
+
+input{
+  outline: none;
+}
+
+a.active{
+  color: gray;
+}
+
+.container{
+  max-width: 1180px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+
+@import "header";
+@import "footer";
+@import "banner";
+@import "hitSale";
+@import "card";
+@import "form";
+@import "product";
+@import "catalog";
+@import "favorites";
+@import "cart";
+@import "checkout";
