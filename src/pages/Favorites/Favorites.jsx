@@ -17,7 +17,6 @@ const Favorites = () => {
 
     }, [favorites]);
 
-
     if(favorites.length){
         return (
             <section className="favorites">
@@ -37,11 +36,8 @@ const Favorites = () => {
                             {
                                 favoritesPagesCount.map((item, idx) => (
                                     <li onClick={() => {
-                                        setPage(idx +1 );
-                                        style.background = 'transparent';
-                                        style.color = '#3C3C3C';
-                                        style.border = '1px solid #3C3C3C'
-                                    }} key={idx}>{idx + 1}</li>
+                                        setPage(idx + 1 );
+                                    }} key={idx} >{idx + 1}</li>
                                 ))
                             }
                         </ul>

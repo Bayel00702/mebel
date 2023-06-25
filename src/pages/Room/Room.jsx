@@ -6,6 +6,7 @@ const Room = () => {
 
     const {user} = useContext(CustomContext);
 
+
     return (
         <section className="room">
             <div className="container">
@@ -93,8 +94,8 @@ const Room = () => {
                         <tr className="room__table-top">
                             <td className="room__table-title">Товар</td>
                             <td className="room__table-title">Цена</td>
-                            <td className="room__table-title">Дата</td>
                             <td className="room__table-title">Количество</td>
+                            <td className="room__table-title">Дата</td>
                             <td className="room__table-title">Статус</td>
                         </tr>
                         {
@@ -105,7 +106,7 @@ const Room = () => {
                                         {item.title}
                                     </td>
                                     <td>
-                                        {item.price}
+                                        {item.price * item.count}
                                     </td>
                                     <td>
                                         {item.count}
