@@ -1,6 +1,49 @@
 
 .checkout{
   padding: 194px 0 130px;
+  position: relative;
+  z-index: 10;
+
+  &__popup{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px 60px;
+    background: #245462;
+    border-radius: 10px;
+    text-align: center;
+    z-index: 100;
+
+    &-title{
+      font-family: 'Raleway', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 25px;
+      letter-spacing: 0.02em;
+      color: #FFFFFF;
+      margin-bottom: 20px;
+    }
+    &-text{
+      font-family: 'Raleway', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      letter-spacing: 0.02em;
+      color: #FFFFFF;
+      margin-bottom: 15px;
+    }
+    &-btn{
+      padding: 22px 50px;
+      background: #6E9C9F;
+      font-family: 'Raleway', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+      letter-spacing: 0.02em;
+      color: #FFFFFF;
+    }
+  }
 
 
   &__title{
@@ -21,7 +64,7 @@
       display: flex;
       flex-direction: column;
       row-gap: 30px;
-      width: 255px;
+      width: 290px;
     }
     &-item{
       display: flex;

@@ -11,7 +11,7 @@
       "home": 2,
       "orders": [],
       "point": 0,
-      "carts": 1
+      "carts": []
     },
     {
       "email": "konurbaevbajel@gmail.com",
@@ -29,50 +29,7 @@
       "phone": "+996(278)63-78-36",
       "point": 0,
       "orders": [],
-      "carts": [
-        {
-          "id": 3,
-          "title": "Динс Velvet Yellow",
-          "category": "Диваны",
-          "price": 28490,
-          "width": "218",
-          "deep": "95",
-          "height": "90",
-          "rating": 0,
-          "sale": 37990,
-          "description": "Лаконичные линии и простые формы, безупречный стиль и индивидуальность – все это диван «Динс». Сдержанный скандинавский дизайн украсит любую современную обстановку. Элегантность, комфорт и функциональность, собранные воедино – «Динс» просто создан для размеренного отдыха в кругу семьи или компании друзей!",
-          "image": "./src/assets/product/product3.png",
-          "images": [
-            "./src/assets/product/product3.png",
-            "./src/assets/product/product3.png",
-            "./src/assets/product/product3.png",
-            "./src/assets/product/product3.png",
-            "./src/assets/product/product3.png"
-          ],
-          "count": 1
-        },
-        {
-          "id": 1,
-          "title": "Валенсия Beige",
-          "category": "Барные стулья",
-          "price": 2300,
-          "width": "43",
-          "deep": "43",
-          "height": "77",
-          "rating": 0,
-          "sale": 0,
-          "description": "Лаконичные линии и простые формы, безупречный стиль и индивидуальность – все это диван «Динс». Сдержанный скандинавский дизайн украсит любую современную обстановку. Элегантность, комфорт и функциональность, собранные воедино – «Динс» просто создан для размеренного отдыха в кругу семьи или компании друзей!",
-          "image": "./src/assets/product/product1.png",
-          "images": [
-            "./src/assets/product/product1.png",
-            "./src/assets/product/product1.png",
-            "./src/assets/product/product1.png",
-            "./src/assets/product/product1.png",
-            "./src/assets/product/product1.png"
-          ],
-          "count": 1
-        }
-      ],
+      "carts": [],
       "city": "",
       "home": "",
       "street": "",
@@ -85,144 +42,359 @@
       "surname": "Konurbaev",
       "phone": "+996(121)21-21-21",
       "point": 0,
-      "orders": [],
-      "carts": [
+      "orders": [
         {
-          "id": 2,
-          "title": "Толикс-2 White Gloss",
-          "category": "Барные стулья",
-          "price": 4690,
-          "width": "43",
-          "deep": "43",
-          "height": "77",
-          "rating": 0,
-          "sale": 0,
-          "description": "Лаконичные линии и простые формы, безупречный стиль и индивидуальность – все это диван «Динс». Сдержанный скандинавский дизайн украсит любую современную обстановку. Элегантность, комфорт и функциональность, собранные воедино – «Динс» просто создан для размеренного отдыха в кругу семьи или компании друзей!",
-          "image": "./src/assets/product/product2.png",
-          "images": [
-            "./src/assets/product/product2.png",
-            "./src/assets/product/product2.png",
-            "./src/assets/product/product2.png",
-            "./src/assets/product/product2.png",
-            "./src/assets/product/product2.png"
+          "name": "Baner",
+          "email": "Baner@gmail.com",
+          "phone": "+996(121)21-21-21",
+          "country": "Kyrgyzstan",
+          "city": "Bishkek",
+          "street": "Abdymomunova",
+          "home": "244",
+          "flat": "96",
+          "info": "I want",
+          "order": [
+            {
+              "id": 3,
+              "title": "Динс Velvet Yellow",
+              "category": "Диваны",
+              "price": 28490,
+              "width": "218",
+              "deep": "95",
+              "height": "90",
+              "rating": 0,
+              "sale": 37990,
+              "description": "Лаконичные линии и простые формы, безупречный стиль и индивидуальность – все это диван «Динс». Сдержанный скандинавский дизайн украсит любую современную обстановку. Элегантность, комфорт и функциональность, собранные воедино – «Динс» просто создан для размеренного отдыха в кругу семьи или компании друзей!",
+              "image": "./src/assets/product/product3.png",
+              "images": [
+                "./src/assets/product/product3.png",
+                "./src/assets/product/product3.png",
+                "./src/assets/product/product3.png",
+                "./src/assets/product/product3.png",
+                "./src/assets/product/product3.png"
+              ],
+              "count": 1
+            },
+            {
+              "id": 1,
+              "title": "Валенсия Beige",
+              "category": "Барные стулья",
+              "price": 2300,
+              "width": "43",
+              "deep": "43",
+              "height": "77",
+              "rating": 0,
+              "sale": 0,
+              "description": "Лаконичные линии и простые формы, безупречный стиль и индивидуальность – все это диван «Динс». Сдержанный скандинавский дизайн украсит любую современную обстановку. Элегантность, комфорт и функциональность, собранные воедино – «Динс» просто создан для размеренного отдыха в кругу семьи или компании друзей!",
+              "image": "./src/assets/product/product1.png",
+              "images": [
+                "./src/assets/product/product1.png",
+                "./src/assets/product/product1.png",
+                "./src/assets/product/product1.png",
+                "./src/assets/product/product1.png",
+                "./src/assets/product/product1.png"
+              ],
+              "count": 1
+            },
+            {
+              "id": 2,
+              "title": "Толикс-2 White Gloss",
+              "category": "Барные стулья",
+              "price": 4690,
+              "width": "43",
+              "deep": "43",
+              "height": "77",
+              "rating": 0,
+              "sale": 0,
+              "description": "Лаконичные линии и простые формы, безупречный стиль и индивидуальность – все это диван «Динс». Сдержанный скандинавский дизайн украсит любую современную обстановку. Элегантность, комфорт и функциональность, собранные воедино – «Динс» просто создан для размеренного отдыха в кругу семьи или компании друзей!",
+              "image": "./src/assets/product/product2.png",
+              "images": [
+                "./src/assets/product/product2.png",
+                "./src/assets/product/product2.png",
+                "./src/assets/product/product2.png",
+                "./src/assets/product/product2.png",
+                "./src/assets/product/product2.png"
+              ],
+              "count": 1
+            }
           ],
-          "count": 26
+          "totalPrice": 35480
         },
         {
-          "id": 4,
-          "title": "Кускен Navy Blue",
-          "category": "Диваны",
-          "price": 2300,
-          "width": "209",
-          "deep": "109",
-          "height": "99",
-          "rating": 0,
-          "sale": 0,
-          "description": "Лаконичные линии и простые формы, безупречный стиль и индивидуальность – все это диван «Динс». Сдержанный скандинавский дизайн украсит любую современную обстановку. Элегантность, комфорт и функциональность, собранные воедино – «Динс» просто создан для размеренного отдыха в кругу семьи или компании друзей!",
-          "image": "./src/assets/product/product4.png",
-          "images": [
-            "./src/assets/product/product4.png",
-            "./src/assets/product/product4.png",
-            "./src/assets/product/product4.png",
-            "./src/assets/product/product4.png",
-            "./src/assets/product/product4.png"
+          "name": "Baner",
+          "email": "Baner@gmail.com",
+          "phone": "+996(121)21-21-21",
+          "country": "Kyrgyzstan",
+          "city": "Bishkek",
+          "street": "Abdymomunova",
+          "home": "244",
+          "flat": "96",
+          "info": "I want",
+          "order": [
+            {
+              "id": 3,
+              "title": "Динс Velvet Yellow",
+              "category": "Диваны",
+              "price": 28490,
+              "width": "218",
+              "deep": "95",
+              "height": "90",
+              "rating": 0,
+              "sale": 37990,
+              "description": "Лаконичные линии и простые формы, безупречный стиль и индивидуальность – все это диван «Динс». Сдержанный скандинавский дизайн украсит любую современную обстановку. Элегантность, комфорт и функциональность, собранные воедино – «Динс» просто создан для размеренного отдыха в кругу семьи или компании друзей!",
+              "image": "./src/assets/product/product3.png",
+              "images": [
+                "./src/assets/product/product3.png",
+                "./src/assets/product/product3.png",
+                "./src/assets/product/product3.png",
+                "./src/assets/product/product3.png",
+                "./src/assets/product/product3.png"
+              ],
+              "count": 1
+            },
+            {
+              "id": 1,
+              "title": "Валенсия Beige",
+              "category": "Барные стулья",
+              "price": 2300,
+              "width": "43",
+              "deep": "43",
+              "height": "77",
+              "rating": 0,
+              "sale": 0,
+              "description": "Лаконичные линии и простые формы, безупречный стиль и индивидуальность – все это диван «Динс». Сдержанный скандинавский дизайн украсит любую современную обстановку. Элегантность, комфорт и функциональность, собранные воедино – «Динс» просто создан для размеренного отдыха в кругу семьи или компании друзей!",
+              "image": "./src/assets/product/product1.png",
+              "images": [
+                "./src/assets/product/product1.png",
+                "./src/assets/product/product1.png",
+                "./src/assets/product/product1.png",
+                "./src/assets/product/product1.png",
+                "./src/assets/product/product1.png"
+              ],
+              "count": 1
+            },
+            {
+              "id": 2,
+              "title": "Толикс-2 White Gloss",
+              "category": "Барные стулья",
+              "price": 4690,
+              "width": "43",
+              "deep": "43",
+              "height": "77",
+              "rating": 0,
+              "sale": 0,
+              "description": "Лаконичные линии и простые формы, безупречный стиль и индивидуальность – все это диван «Динс». Сдержанный скандинавский дизайн украсит любую современную обстановку. Элегантность, комфорт и функциональность, собранные воедино – «Динс» просто создан для размеренного отдыха в кругу семьи или компании друзей!",
+              "image": "./src/assets/product/product2.png",
+              "images": [
+                "./src/assets/product/product2.png",
+                "./src/assets/product/product2.png",
+                "./src/assets/product/product2.png",
+                "./src/assets/product/product2.png",
+                "./src/assets/product/product2.png"
+              ],
+              "count": 1
+            },
+            {
+              "id": 4,
+              "title": "Кускен Navy Blue",
+              "category": "Диваны",
+              "price": 2300,
+              "width": "209",
+              "deep": "109",
+              "height": "99",
+              "rating": 0,
+              "sale": 0,
+              "description": "Лаконичные линии и простые формы, безупречный стиль и индивидуальность – все это диван «Динс». Сдержанный скандинавский дизайн украсит любую современную обстановку. Элегантность, комфорт и функциональность, собранные воедино – «Динс» просто создан для размеренного отдыха в кругу семьи или компании друзей!",
+              "image": "./src/assets/product/product4.png",
+              "images": [
+                "./src/assets/product/product4.png",
+                "./src/assets/product/product4.png",
+                "./src/assets/product/product4.png",
+                "./src/assets/product/product4.png",
+                "./src/assets/product/product4.png"
+              ],
+              "count": 1
+            }
           ],
-          "count": 3
+          "totalPrice": 37780
         },
         {
-          "id": 6,
-          "title": "Авиньон-1",
-          "category": "Буфеты",
-          "price": 18990,
-          "width": "80",
-          "deep": "0",
-          "height": "179",
-          "rating": 0,
-          "sale": 0,
-          "description": "Лаконичные линии и простые формы, безупречный стиль и индивидуальность – все это диван «Динс». Сдержанный скандинавский дизайн украсит любую современную обстановку. Элегантность, комфорт и функциональность, собранные воедино – «Динс» просто создан для размеренного отдыха в кругу семьи или компании друзей!",
-          "image": "./src/assets/product/product6.png",
-          "images": [
-            "./src/assets/product/product6.png",
-            "./src/assets/product/product6.png",
-            "./src/assets/product/product6.png",
-            "./src/assets/product/product6.png",
-            "./src/assets/product/product6.png"
+          "name": "Baner",
+          "email": "Baner@gmail.com",
+          "phone": "+996(121)21-21-21",
+          "country": "Kyrgyzstan",
+          "city": "Bishkek",
+          "street": "Abdymomunova",
+          "home": "244",
+          "flat": "96",
+          "info": "I want",
+          "order": [
+            {
+              "id": 3,
+              "title": "Динс Velvet Yellow",
+              "category": "Диваны",
+              "price": 28490,
+              "width": "218",
+              "deep": "95",
+              "height": "90",
+              "rating": 0,
+              "sale": 37990,
+              "description": "Лаконичные линии и простые формы, безупречный стиль и индивидуальность – все это диван «Динс». Сдержанный скандинавский дизайн украсит любую современную обстановку. Элегантность, комфорт и функциональность, собранные воедино – «Динс» просто создан для размеренного отдыха в кругу семьи или компании друзей!",
+              "image": "./src/assets/product/product3.png",
+              "images": [
+                "./src/assets/product/product3.png",
+                "./src/assets/product/product3.png",
+                "./src/assets/product/product3.png",
+                "./src/assets/product/product3.png",
+                "./src/assets/product/product3.png"
+              ],
+              "count": 1
+            },
+            {
+              "id": 1,
+              "title": "Валенсия Beige",
+              "category": "Барные стулья",
+              "price": 2300,
+              "width": "43",
+              "deep": "43",
+              "height": "77",
+              "rating": 0,
+              "sale": 0,
+              "description": "Лаконичные линии и простые формы, безупречный стиль и индивидуальность – все это диван «Динс». Сдержанный скандинавский дизайн украсит любую современную обстановку. Элегантность, комфорт и функциональность, собранные воедино – «Динс» просто создан для размеренного отдыха в кругу семьи или компании друзей!",
+              "image": "./src/assets/product/product1.png",
+              "images": [
+                "./src/assets/product/product1.png",
+                "./src/assets/product/product1.png",
+                "./src/assets/product/product1.png",
+                "./src/assets/product/product1.png",
+                "./src/assets/product/product1.png"
+              ],
+              "count": 1
+            },
+            {
+              "id": 2,
+              "title": "Толикс-2 White Gloss",
+              "category": "Барные стулья",
+              "price": 4690,
+              "width": "43",
+              "deep": "43",
+              "height": "77",
+              "rating": 0,
+              "sale": 0,
+              "description": "Лаконичные линии и простые формы, безупречный стиль и индивидуальность – все это диван «Динс». Сдержанный скандинавский дизайн украсит любую современную обстановку. Элегантность, комфорт и функциональность, собранные воедино – «Динс» просто создан для размеренного отдыха в кругу семьи или компании друзей!",
+              "image": "./src/assets/product/product2.png",
+              "images": [
+                "./src/assets/product/product2.png",
+                "./src/assets/product/product2.png",
+                "./src/assets/product/product2.png",
+                "./src/assets/product/product2.png",
+                "./src/assets/product/product2.png"
+              ],
+              "count": 1
+            }
           ],
-          "count": 3
+          "totalPrice": 35480
         },
         {
-          "id": 14,
-          "title": "Сан-Паулу Velvet Brown",
-          "category": "Барные стулья",
-          "price": 25990,
-          "width": "90",
-          "deep": "0",
-          "height": "70",
-          "rating": 0,
-          "sale": 0,
-          "description": "Лаконичные линии и простые формы, безупречный стиль и индивидуальность – все это диван «Динс». Сдержанный скандинавский дизайн украсит любую современную обстановку. Элегантность, комфорт и функциональность, собранные воедино – «Динс» просто создан для размеренного отдыха в кругу семьи или компании друзей!",
-          "image": "./src/assets/product/product14.png",
-          "images": [
-            "./src/assets/product/product14.png",
-            "./src/assets/product/product14.png",
-            "./src/assets/product/product14.png",
-            "./src/assets/product/product14.png",
-            "./src/assets/product/product14.png"
+          "name": "Baner",
+          "email": "Baner@gmail.com",
+          "phone": "+996(121)21-21-21",
+          "country": "Kyrgyzstan",
+          "city": "Bishkek",
+          "street": "Abdymomunova",
+          "home": "244",
+          "flat": "96",
+          "info": "I want",
+          "order": [
+            {
+              "id": 3,
+              "title": "Динс Velvet Yellow",
+              "category": "Диваны",
+              "price": 28490,
+              "width": "218",
+              "deep": "95",
+              "height": "90",
+              "rating": 0,
+              "sale": 37990,
+              "description": "Лаконичные линии и простые формы, безупречный стиль и индивидуальность – все это диван «Динс». Сдержанный скандинавский дизайн украсит любую современную обстановку. Элегантность, комфорт и функциональность, собранные воедино – «Динс» просто создан для размеренного отдыха в кругу семьи или компании друзей!",
+              "image": "./src/assets/product/product3.png",
+              "images": [
+                "./src/assets/product/product3.png",
+                "./src/assets/product/product3.png",
+                "./src/assets/product/product3.png",
+                "./src/assets/product/product3.png",
+                "./src/assets/product/product3.png"
+              ],
+              "count": 1
+            },
+            {
+              "id": 1,
+              "title": "Валенсия Beige",
+              "category": "Барные стулья",
+              "price": 2300,
+              "width": "43",
+              "deep": "43",
+              "height": "77",
+              "rating": 0,
+              "sale": 0,
+              "description": "Лаконичные линии и простые формы, безупречный стиль и индивидуальность – все это диван «Динс». Сдержанный скандинавский дизайн украсит любую современную обстановку. Элегантность, комфорт и функциональность, собранные воедино – «Динс» просто создан для размеренного отдыха в кругу семьи или компании друзей!",
+              "image": "./src/assets/product/product1.png",
+              "images": [
+                "./src/assets/product/product1.png",
+                "./src/assets/product/product1.png",
+                "./src/assets/product/product1.png",
+                "./src/assets/product/product1.png",
+                "./src/assets/product/product1.png"
+              ],
+              "count": 1
+            },
+            {
+              "id": 2,
+              "title": "Толикс-2 White Gloss",
+              "category": "Барные стулья",
+              "price": 4690,
+              "width": "43",
+              "deep": "43",
+              "height": "77",
+              "rating": 0,
+              "sale": 0,
+              "description": "Лаконичные линии и простые формы, безупречный стиль и индивидуальность – все это диван «Динс». Сдержанный скандинавский дизайн украсит любую современную обстановку. Элегантность, комфорт и функциональность, собранные воедино – «Динс» просто создан для размеренного отдыха в кругу семьи или компании друзей!",
+              "image": "./src/assets/product/product2.png",
+              "images": [
+                "./src/assets/product/product2.png",
+                "./src/assets/product/product2.png",
+                "./src/assets/product/product2.png",
+                "./src/assets/product/product2.png",
+                "./src/assets/product/product2.png"
+              ],
+              "count": 1
+            },
+            {
+              "id": 4,
+              "title": "Кускен Navy Blue",
+              "category": "Диваны",
+              "price": 2300,
+              "width": "209",
+              "deep": "109",
+              "height": "99",
+              "rating": 0,
+              "sale": 0,
+              "description": "Лаконичные линии и простые формы, безупречный стиль и индивидуальность – все это диван «Динс». Сдержанный скандинавский дизайн украсит любую современную обстановку. Элегантность, комфорт и функциональность, собранные воедино – «Динс» просто создан для размеренного отдыха в кругу семьи или компании друзей!",
+              "image": "./src/assets/product/product4.png",
+              "images": [
+                "./src/assets/product/product4.png",
+                "./src/assets/product/product4.png",
+                "./src/assets/product/product4.png",
+                "./src/assets/product/product4.png",
+                "./src/assets/product/product4.png"
+              ],
+              "count": 1
+            }
           ],
-          "count": 3
-        },
-        {
-          "id": 12,
-          "title": "Лайт-3-170-240 Белый",
-          "category": "Шкафы",
-          "price": 27290,
-          "width": "140",
-          "deep": "0",
-          "height": "190",
-          "rating": 0,
-          "sale": 0,
-          "description": "Лаконичные линии и простые формы, безупречный стиль и индивидуальность – все это диван «Динс». Сдержанный скандинавский дизайн украсит любую современную обстановку. Элегантность, комфорт и функциональность, собранные воедино – «Динс» просто создан для размеренного отдыха в кругу семьи или компании друзей!",
-          "image": "./src/assets/product/product12.png",
-          "images": [
-            "./src/assets/product/product12.png",
-            "./src/assets/product/product12.png",
-            "./src/assets/product/product12.png",
-            "./src/assets/product/product12.png",
-            "./src/assets/product/product12.png"
-          ],
-          "count": 1
-        },
-        {
-          "id": 13,
-          "title": "Вилли Pink",
-          "category": "Детский диван",
-          "price": 21990,
-          "width": "60",
-          "deep": "0",
-          "height": "70",
-          "rating": 0,
-          "sale": 0,
-          "description": "Лаконичные линии и простые формы, безупречный стиль и индивидуальность – все это диван «Динс». Сдержанный скандинавский дизайн украсит любую современную обстановку. Элегантность, комфорт и функциональность, собранные воедино – «Динс» просто создан для размеренного отдыха в кругу семьи или компании друзей!",
-          "image": "./src/assets/product/product13.png",
-          "images": [
-            "./src/assets/product/product13.png",
-            "./src/assets/product/product13.png",
-            "./src/assets/product/product13.png",
-            "./src/assets/product/product13.png",
-            "./src/assets/product/product13.png"
-          ],
-          "count": 1
-        },
-        {
-          "count": 1
-        },
-        {
-          "count": 1
-        },
-        {
-          "count": 1
+          "totalPrice": 37780
         }
       ],
+      "carts": [],
       "city": "",
       "home": "",
       "street": "",

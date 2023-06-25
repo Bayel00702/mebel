@@ -31,6 +31,11 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.07);
     position: relative;
 
+    &-img{
+      width: 150px;
+      height: 100%;
+    }
+
     &-info{
       display: flex;
       column-gap: 20px;
@@ -48,7 +53,7 @@
   &__sizes{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    row-gap: 9px;
     width: 90%;
 
     &-top{

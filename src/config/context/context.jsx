@@ -15,6 +15,7 @@ const Context = (props) => {
 
     const [search, setSearch] = useState('');
 
+
     const navigate = useNavigate();
 
     // start UserContent
@@ -128,6 +129,39 @@ const Context = (props) => {
         })
     };
 
+    const delCarts = (id) => {
+        api.patch(`users/${user.id}`, {
+            headers: {
+                'content-type': 'application/json'
+            },
+
+            json: {
+                carts:  user.carts.filter((item) => item.id !== id)
+            }
+        }).json().then((res) => {
+            setUser(res);
+            localStorage.setItem('user', JSON.stringify(res))
+        })
+    };
+
+    const addOrder = (order,setPopup, redirect) => {
+        api.patch(`users/${user.id}`, {
+            headers: {
+                'content-type': 'application/json'
+            },
+
+            json: {
+                point: Math.floor(user.point + (order.totalPrice / 100 * 7)),
+                orders : [...user.orders, order],
+                carts: []
+            }
+        }).json().then((res) => {
+            setUser(res);
+            localStorage.setItem('user', JSON.stringify(res));
+            setPopup(true);
+            redirect()
+        })
+    };
 
     // end UserContent
 
@@ -152,7 +186,7 @@ const Context = (props) => {
 
     //start hitSale
     const getHitSale = () => {
-        api('product?_sort=sale&_order=desc&_limit=12').json()
+        api('products?_sort=sale&_order=desc&_limit=12').json()
             .then((res) => setHitSale(res))
     };
     //end hitSale
@@ -162,7 +196,7 @@ const Context = (props) => {
 
 
     let value = {
-        user, setUser, registerUser, loginUser, exitUser, hitSale, getHitSale, favHandler, favorites, search, setSearch, addCarts, addCartsCountPlus, addCartsCountMinus,
+        user, setUser, registerUser, loginUser, exitUser, hitSale, getHitSale, favHandler, favorites, search, setSearch, addCarts, addCartsCountPlus, addCartsCountMinus, delCarts, addOrder
     };
 
     return <CustomContext.Provider value={value}>

@@ -9,12 +9,12 @@ const Card = ({item}) => {
 
     const {favorites, favHandler, addCarts, user, addCartsCountPlus, addCartsCountMinus} = useContext(CustomContext);
 
-    const [open, setOpen] = useState('true');
+    const [open, setOpen] = useState(false);
 
     const navigate = useNavigate();
-
     return (
-        <div className="card" >
+
+        <div className="card">
 
             <span style={{ZIndex: 0}} className="card__fav" onClick={() => favHandler(item)}>
                 {
@@ -22,7 +22,7 @@ const Card = ({item}) => {
                 }
             </span>
             <Link to={`/product/${item.id}`}>
-                <img className="card__img" src={`/${item.image}`} alt={item.title}/>
+                <img className="card__img" src={`${item.images[0]}`} alt={item.title}/>
             </Link>
 
             <div  className="card__info" onClick={() => {
@@ -72,26 +72,26 @@ const Card = ({item}) => {
                 </div>
 
                 {
-                    user.carts?.some(el => el.id === item.id) ?
+                    user.carts?.some((el) =>  el.id === item.id) ?
                         <div className="card__size-count">
                         <button type='button' onClick={() => addCartsCountMinus(item.id)}>-</button>
-                        <span>{
-                            user.carts.find(el => el.id === item.id).count
-                        }</span>
+                        <span>
+                            {
+                                user.carts.find(el => el.id === item.id).count
+                            }
+                        </span>
                         <button type='button' onClick={() => addCartsCountPlus(item.id)}>+</button>
                     </div>
-                        :  <button type='button' className="card__size-btn" onClick={() => {
-                        if ('id' in user){
-                            addCarts(item)
-                        } else {
-                            navigate('/login')
-                        }
+                        :
+                        <button type='button' className="card__size-btn" onClick={() => {
+
+                            if ('id' in user){
+                                addCarts(item)
+                            } else {
+                                navigate('/login')
+                            }
                     }}>Добавить в корзину</button>
                 }
-
-
-
-
             </div>
         </div>
     );
