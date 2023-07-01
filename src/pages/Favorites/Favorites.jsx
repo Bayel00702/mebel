@@ -8,6 +8,7 @@ const Favorites = () => {
 
     const [page, setPage] = useState(1);
 
+
     let favoritesPagesCount = new Array(Math.ceil(favorites.length / 4)).fill(null, 0 );
 
     useEffect(() => {
@@ -35,7 +36,8 @@ const Favorites = () => {
                         favoritesPagesCount.length !== 1 && <ul className="favorites__list">
                             {
                                 favoritesPagesCount.map((item, idx) => (
-                                    <li onClick={() => {
+                                   <li
+                                       onClick={() => {
                                         setPage(idx + 1 );
                                     }} key={idx} >{idx + 1}</li>
                                 ))

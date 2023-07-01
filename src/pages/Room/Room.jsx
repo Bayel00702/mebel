@@ -1,3 +1,4 @@
+import React from 'react'
 import {useContext} from "react";
 import {CustomContext} from "../../config/context/context";
 
@@ -98,6 +99,7 @@ const Room = () => {
                             <td className="room__table-title">Дата</td>
                             <td className="room__table-title">Статус</td>
                         </tr>
+
                         {
                             user.orders[0].order.map((item) => (
                                 <tr className='room__table-info'>
@@ -120,9 +122,7 @@ const Room = () => {
                                 </tr>
                             ))
                         }
-                        <p className="room__all">
-                            Смотреть все
-                        </p>
+                        <p className="room__all">итого {user.orders[0].totalPrice}</p>
                     </table>
                 </div>
             </div>

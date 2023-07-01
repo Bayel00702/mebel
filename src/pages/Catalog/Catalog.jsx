@@ -10,6 +10,7 @@ const Catalog = () => {
     const [products, setProducts] = useState([]);
     const [category, setCategory] = useState('');
     const [sort, setSort] = useState('');
+
     const [slider, setSlider] = useState([0, 30000]);
 
     const {search, setSearch} = useContext(CustomContext);
@@ -23,9 +24,9 @@ const Catalog = () => {
         let queryParamsApi = `?${search.length ? `title_like=${search}&` : ''}${category.length ? `category=${category}&` : ''}${sort.length ? `_sort=price&_order=${sort}&` : sort.length ? `_sort=rate&_order=desc&` : ''}`;
         let queryParamsFromTo = `price_gte=${slider[0]}&price_lte=${slider[1]}`;
 
-        api(`product${queryParamsApi}${queryParamsFromTo}`).json()
+        api(`products${queryParamsApi}${queryParamsFromTo}`).json()
             .then((res) => setProducts(res))
-    }, [search, sort, category]);
+    }, [search, sort, category, slider]);
 
 
 

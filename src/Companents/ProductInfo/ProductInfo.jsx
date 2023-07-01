@@ -3,9 +3,11 @@ import {AiOutlineHeart, AiFillHeart} from 'react-icons/ai'
 import {CustomContext} from "../../config/context/context";
 
 const ProductInfo = ({product}) => {
+
     const {favorites, favHandler} = useContext(CustomContext);
 
     const colors = ['red', 'green', 'yellow'];
+
     return (
         <div className="product__info">
             <h2 className="product__info-title">{product.title}</h2>

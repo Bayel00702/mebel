@@ -12,16 +12,16 @@ const Product = () => {
     const [product, setProduct] = useState({});
 
     useEffect(() => {
-        api(`product/${params.id}`).json()
+        api(`products/${params.id}`).json()
             .then((res) => setProduct(res))
-    }, []);
+    },[]);
 
     if ('id' in product){
         return (
             <section className="product">
                 <div className="container">
                     <div className="product__row">
-                        <ProductSlider/>
+                        <ProductSlider product={product}/>
                         <ProductInfo product={product}/>
                     </div>
 
@@ -30,7 +30,6 @@ const Product = () => {
                     <HitSale/>
                 </div>
             </section>
-
         );
     } else {
          return <h2>Loading...</h2>
