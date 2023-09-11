@@ -54,29 +54,6 @@ const AsideFilter = ({sort, setSort, category, setCategory, slider, setSlider}) 
                     Цвет
                 </h2>
 
-                <div className="catalog__aside-content__colors">
-                    {
-                        colors.map((item, idx) => (
-                            <div key={idx} className="catalog__aside-colors"
-                                 style={{background: item}}
-                            >
-                                s
-                            </div>
-                        ))
-                    }
-                </div>
-
-            </div>
-            <div className="catalog__aside-content">
-                <h2 className="catalog__aside-title">
-                    Бренд
-                </h2>
-                <div className="catalog__aside-checks">
-                    <Checkbox {...label}/>
-                    <Checkbox {...label}/>
-                    <Checkbox {...label}/>
-                </div>
-
             </div>
             <Button variant="contained" onClick={resetFilter}>Сбросить</Button>
 

@@ -3,6 +3,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation, Autoplay } from "swiper";
+import {Link} from 'react-router-dom'
+
 
 const Banner = () => {
     return (
@@ -29,8 +31,7 @@ const Banner = () => {
                             <p className="banner__info-text">
                                 Современная и удобная мебель в Анапе
                             </p>
-
-                            <button className="banner__info-btn">СМОТРЕТЬ КАТАЛОГ</button>
+                                <Link to='/catalog' className="banner__info-btn">СМОТРЕТЬ КАТАЛОГ</Link>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
@@ -44,8 +45,9 @@ const Banner = () => {
                             <p className="banner__info-text">
                                 Современная и удобная мебель в Анапе
                             </p>
-
-                            <button className="banner__info-btn">СМОТРЕТЬ КАТАЛОГ</button>
+                            <Link to={'/catalog'}>
+                                <button className="banner__info-btn">СМОТРЕТЬ КАТАЛОГ</button>
+                            </Link>
                         </div>
                     </SwiperSlide>
                 </Swiper>
