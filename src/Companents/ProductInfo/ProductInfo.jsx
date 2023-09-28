@@ -6,7 +6,6 @@ const ProductInfo = ({product}) => {
 
     const {favorites, favHandler} = useContext(CustomContext);
 
-    const colors = ['red', 'green', 'yellow'];
 
     return (
         <div className="product__info">
@@ -24,18 +23,6 @@ const ProductInfo = ({product}) => {
                     } Добавить в желаемое</button>
             </div>
             <div className="product__info-selects">
-                <div className="product__info-selects__choice">
-                    <h4 className="product__info-selects__title">Цвет</h4>
-                    <ul className="product__info-colors">
-                        {
-                            colors.map((item, idx) => (
-                                <li key={idx} style={{background: item}}>
-                                    ss
-                                </li>
-                            ))
-                        }
-                    </ul>
-                </div>
                 <div className="product__info-selects__choice">
                     <h4 className="product__info-selects__title">Количество</h4>
                     <ul className="product__info-count">
